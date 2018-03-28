@@ -63,11 +63,7 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
-		<plugin>
-   <groupId>com.google.appengine</groupId>
-   <artifactId>appengine-maven-plugin</artifactId>
-   <version>1.9.63</version>
-</plugin>
+		
 
 
 
@@ -79,6 +75,11 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<plugin>
+   <groupId>com.google.appengine</groupId>
+   <artifactId>appengine-maven-plugin</artifactId>
+   <version>1.9.63</version>
+</plugin>
 		</plugins>
 	</build>
 
